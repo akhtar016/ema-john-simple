@@ -1,12 +1,12 @@
 import React from "react";
-import { useAuth } from "../Login/useAuth";
+
 
 
 
 const Cart = props => {
   const cart = props.cart;
 
-  const auth = useAuth();
+  //const auth = useAuth();
   //const total = cart.reduce((total,prd)=> total + prd.price,0);
 
   let total = 0;
